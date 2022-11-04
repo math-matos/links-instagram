@@ -26,6 +26,9 @@ button{
   font-size: 25px;
   font-weight: bold;
   color: #000;
+  transition: all .3s;
+    box-shadow: 6px 6px 12px #3b78d2,
+                -6px -6px 12px #fff;
 }
 
 #logo{
@@ -91,6 +94,8 @@ li , img {
 
 li:hover{
   transform: scale(1.1);
+  box-shadow: -6px -6px 12px #3b78d2,
+                6px 6px 12px white;
 }
 
 img:hover{
